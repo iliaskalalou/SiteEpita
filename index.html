@@ -2,14 +2,51 @@
 <html>
   <head>
     <title>Fighting Thrill</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      #title {
+        font-size: 7em;
+        text-align: center;
+        margin-top: 100px;
+      }
+      .button {
+        width: 50%;
+        height: 50%;
+        display: inline-block;
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 200%;
+        font-size: 2em;
+        font-weight: bold;
+        color: white;
+        text-shadow: 2px 2px black;
+        cursor: pointer;
+      }
+      #button1 {
+        background-color: blue;
+      }
+      #button2 {
+        background-color: green;
+      }
+      #button3 {
+        background-color: red;
+      }
+      #button4 {
+        background-color: pink;
+      }
+    </style>
   </head>
   <body>
-    <h1>Fighting Thrill</h1>
-    <ul>
-      <li><a href="histoire.html">Texte 1</a></li>
-      <li><a href="personnages.html">Texte 2</a></li>
-      <li><a href="comment-jouer.html">Texte 3</a></li>
-      <li><a href="developpeurs.html">Texte 4</a></li>
-    </ul>
-  </body>
-</html>
+    <div id="title">Fighting Thrill</div>
+    <div>
+      <a href="#" class="button" id="button1" style="background-image: url('blue-background.jpg')">Button 1</a>
+      <a href="#" class="button" id="button2" style="background-image: url('green-background.jpg')">Button 2</a>
+    </div>
+    <div>
+      <a href="#" class="button" id="button3" style="background-image: url('red-background.jpg')">Button 3</a>
+      <a href="#" class="button" id="button4" style="background-image: url('pink-background.jpg')">Button 4</
